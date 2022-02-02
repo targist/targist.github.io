@@ -15,32 +15,12 @@
 
 		gtag('config', 'G-5PT8M92H35');
 	</script>
-	<link rel="stylesheet" href="/_app/assets/app-dfbe9b35.css">
-	<link rel="modulepreload" href="/_app/start-f9241734.js">
+	<link rel="stylesheet" href="/_app/assets/app-d192efdc.css">
+	<link rel="modulepreload" href="/_app/start-06eafb02.js">
 	<link rel="modulepreload" href="/_app/chunks/vendor-9dc9bc73.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-6abe005c.js">
-	<link rel="modulepreload" href="/_app/pages/contact/index.svelte-6af21494.js">
-	<link rel="modulepreload" href="/_app/chunks/StandardTopBar-cddaf2aa.js"><script type="module">
-		import { start } from "/_app/start-f9241734.js";
-		start({
-			target: document.querySelector("#svelte"),
-			paths: {"base":"","assets":""},
-			session: {},
-			route: true,
-			spa: false,
-			trailing_slash: "never",
-			hydrate: {
-				status: 200,
-				error: null,
-				nodes: [
-					import("/_app/pages/__layout.svelte-6abe005c.js"),
-						import("/_app/pages/contact/index.svelte-6af21494.js")
-				],
-				url: new URL("http://sveltekit-prerender/contact"),
-				params: {}
-			}
-		});
-	</script>
+	<link rel="modulepreload" href="/_app/pages/contact/index.svelte-cb06dd9c.js">
+	<link rel="modulepreload" href="/_app/chunks/StandardTopBar-6a630d21.js">
 </head>
 
 <body>
@@ -56,7 +36,28 @@
 		<div class="flex flex-col hero-body"><h4>For more information, please contact us at</h4>
 			<a class="ml-1 text-bluestrong" href="mailto:info@targist.com" target="_top">info@targist.com</a></div></div></div></div>
 
-</div>
+
+		<script type="module" data-hydrate="nx3ae2">
+		import { start } from "/_app/start-06eafb02.js";
+		start({
+			target: document.querySelector('[data-hydrate="nx3ae2"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-6abe005c.js"),
+						import("/_app/pages/contact/index.svelte-cb06dd9c.js")
+				],
+				url: new URL("http://sveltekit-prerender/contact"),
+				params: {}
+			}
+		});
+	</script></div>
 </body>
 
 </html>
