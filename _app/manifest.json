@@ -1,10 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-c6c336bc.js",
+    "file": "start-2a33222e.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-358bf6f1.js",
+      "_vendor-1490b60e.js",
       "_preload-helper-ec9aa979.js",
       "_singletons-a6a7384f.js"
     ],
@@ -19,98 +19,103 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-3789ac46.js",
+    "file": "pages/__layout.svelte-87c095d3.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-358bf6f1.js",
-      "_AuthService-a8eb2141.js"
+      "_vendor-1490b60e.js",
+      "_AuthService-b4d3cd64.js",
+      "_LoadingScreen-06b2952e.js",
+      "_preload-helper-ec9aa979.js"
     ]
   },
   "src/routes/__error.svelte": {
-    "file": "pages/__error.svelte-9909252c.js",
+    "file": "pages/__error.svelte-79aa5b20.js",
     "src": "src/routes/__error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-358bf6f1.js",
-      "_StandardTopBar-5a5b0a89.js",
-      "_AuthService-a8eb2141.js",
+      "_vendor-1490b60e.js",
+      "_StandardTopBar-e9f13988.js",
+      "_AuthService-b4d3cd64.js",
+      "_preload-helper-ec9aa979.js",
       "_singletons-a6a7384f.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-500caa3c.js",
+    "file": "pages/index.svelte-7667a0f8.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-358bf6f1.js",
-      "_StandardTopBar-5a5b0a89.js",
-      "_AuthService-a8eb2141.js",
+      "_vendor-1490b60e.js",
+      "_StandardTopBar-e9f13988.js",
+      "_AuthService-b4d3cd64.js",
+      "_preload-helper-ec9aa979.js",
       "_singletons-a6a7384f.js"
     ]
   },
   "src/routes/contact/index.svelte": {
-    "file": "pages/contact/index.svelte-0ff6d440.js",
+    "file": "pages/contact/index.svelte-f667e2c5.js",
     "src": "src/routes/contact/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-358bf6f1.js",
-      "_StandardTopBar-5a5b0a89.js",
-      "_AuthService-a8eb2141.js",
+      "_vendor-1490b60e.js",
+      "_StandardTopBar-e9f13988.js",
+      "_AuthService-b4d3cd64.js",
+      "_preload-helper-ec9aa979.js",
       "_singletons-a6a7384f.js"
     ]
   },
   "src/routes/privacy/index.svelte": {
-    "file": "pages/privacy/index.svelte-ab739050.js",
+    "file": "pages/privacy/index.svelte-6e67a52f.js",
     "src": "src/routes/privacy/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-358bf6f1.js",
-      "_AuthService-a8eb2141.js",
-      "_BlogPage-569f7cf8.js",
-      "_StandardTopBar-5a5b0a89.js",
+      "_vendor-1490b60e.js",
+      "_AuthService-b4d3cd64.js",
+      "_BlogPage-ebdadfa9.js",
+      "_preload-helper-ec9aa979.js",
+      "_StandardTopBar-e9f13988.js",
       "_singletons-a6a7384f.js"
     ]
   },
   "src/routes/profile/index.svelte": {
-    "file": "pages/profile/index.svelte-f3f6d978.js",
+    "file": "pages/profile/index.svelte-8a96f2d8.js",
     "src": "src/routes/profile/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
+      "_vendor-1490b60e.js",
+      "_AuthService-b4d3cd64.js",
+      "_LoadingScreen-06b2952e.js",
+      "_StandardTopBar-e9f13988.js",
       "_preload-helper-ec9aa979.js",
-      "_vendor-358bf6f1.js",
-      "_StandardTopBar-5a5b0a89.js",
-      "_AuthService-a8eb2141.js",
       "_singletons-a6a7384f.js"
-    ],
-    "dynamicImports": [
-      "src/lib/api/profile-utils.ts"
     ]
   },
   "src/routes/editor/index.svelte": {
-    "file": "pages/editor/index.svelte-f50b6a50.js",
+    "file": "pages/editor/index.svelte-992b7237.js",
     "src": "src/routes/editor/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-358bf6f1.js",
-      "_AuthService-a8eb2141.js",
-      "_BlogPage-569f7cf8.js",
-      "_StandardTopBar-5a5b0a89.js",
+      "_vendor-1490b60e.js",
+      "_AuthService-b4d3cd64.js",
+      "_BlogPage-ebdadfa9.js",
+      "_preload-helper-ec9aa979.js",
+      "_StandardTopBar-e9f13988.js",
       "_singletons-a6a7384f.js"
     ],
     "css": [
       "assets/pages/editor/index.svelte-75e11a81.css"
     ]
   },
-  "_vendor-358bf6f1.js": {
-    "file": "chunks/vendor-358bf6f1.js"
+  "_vendor-1490b60e.js": {
+    "file": "chunks/vendor-1490b60e.js"
   },
   "_singletons-a6a7384f.js": {
     "file": "chunks/singletons-a6a7384f.js"
@@ -118,37 +123,48 @@
   "_preload-helper-ec9aa979.js": {
     "file": "chunks/preload-helper-ec9aa979.js"
   },
-  "_AuthService-a8eb2141.js": {
-    "file": "chunks/AuthService-a8eb2141.js",
+  "_AuthService-b4d3cd64.js": {
+    "file": "chunks/AuthService-b4d3cd64.js",
     "imports": [
-      "_vendor-358bf6f1.js"
+      "_preload-helper-ec9aa979.js",
+      "_vendor-1490b60e.js"
+    ],
+    "dynamicImports": [
+      "src/lib/api/profile-utils.ts"
     ],
     "css": [
-      "assets/AuthService-89db24a5.css"
+      "assets/AuthService-72563906.css"
     ]
   },
-  "_StandardTopBar-5a5b0a89.js": {
-    "file": "chunks/StandardTopBar-5a5b0a89.js",
+  "_LoadingScreen-06b2952e.js": {
+    "file": "chunks/LoadingScreen-06b2952e.js",
     "imports": [
-      "_vendor-358bf6f1.js",
-      "_AuthService-a8eb2141.js",
+      "_vendor-1490b60e.js"
+    ]
+  },
+  "_StandardTopBar-e9f13988.js": {
+    "file": "chunks/StandardTopBar-e9f13988.js",
+    "imports": [
+      "_vendor-1490b60e.js",
+      "_AuthService-b4d3cd64.js",
       "_singletons-a6a7384f.js"
     ]
   },
-  "_BlogPage-569f7cf8.js": {
-    "file": "chunks/BlogPage-569f7cf8.js",
+  "_BlogPage-ebdadfa9.js": {
+    "file": "chunks/BlogPage-ebdadfa9.js",
     "imports": [
-      "_vendor-358bf6f1.js",
-      "_StandardTopBar-5a5b0a89.js"
+      "_vendor-1490b60e.js",
+      "_StandardTopBar-e9f13988.js"
     ]
   },
   "src/lib/api/profile-utils.ts": {
-    "file": "chunks/profile-utils-9142b412.js",
+    "file": "chunks/profile-utils-96df22bf.js",
     "src": "src/lib/api/profile-utils.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_AuthService-a8eb2141.js",
-      "_vendor-358bf6f1.js"
+      "_AuthService-b4d3cd64.js",
+      "_vendor-1490b60e.js",
+      "_preload-helper-ec9aa979.js"
     ]
   }
 }
