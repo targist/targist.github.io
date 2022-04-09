@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-aad2c669.js",
+    "file": "start-4724b57a.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -13,6 +13,8 @@
       "src/routes/index.svelte",
       "src/routes/projects/control-center/index.svelte",
       "src/routes/projects/ardui/index.svelte",
+      "src/routes/projects/ardui/privacy/index.svelte",
+      "src/routes/projects/webrc/privacy/index.svelte",
       "src/routes/contact/index.svelte",
       "src/routes/privacy/index.svelte",
       "src/routes/profile/index.svelte",
@@ -83,6 +85,36 @@
       "_vendor-0fbb5e6e.js",
       "_StandardTopBar-6a2f7bbf.js",
       "_BlogPage-814b7cc9.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "css": [
+      "assets/app-4733f6d9.css"
+    ]
+  },
+  "src/routes/projects/ardui/privacy/index.svelte": {
+    "file": "pages/projects/ardui/privacy/index.svelte-f20297ec.js",
+    "src": "src/routes/projects/ardui/privacy/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-0fbb5e6e.js",
+      "_BlogPage-814b7cc9.js",
+      "_StandardTopBar-6a2f7bbf.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "css": [
+      "assets/app-4733f6d9.css"
+    ]
+  },
+  "src/routes/projects/webrc/privacy/index.svelte": {
+    "file": "pages/projects/webrc/privacy/index.svelte-de6dd14e.js",
+    "src": "src/routes/projects/webrc/privacy/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-0fbb5e6e.js",
+      "_BlogPage-814b7cc9.js",
+      "_StandardTopBar-6a2f7bbf.js",
       "_singletons-d1fb5791.js"
     ],
     "css": [
