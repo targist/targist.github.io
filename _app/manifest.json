@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-36d50b1c.js",
+    "file": "start-1d45a924.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -32,7 +32,7 @@
       "_vendor-0fbb5e6e.js"
     ],
     "css": [
-      "assets/app-c659b835.css"
+      "assets/app-dc8eedec.css"
     ]
   },
   "src/routes/__error.svelte": {
@@ -46,11 +46,11 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/app-c659b835.css"
+      "assets/app-dc8eedec.css"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-7fbe07cd.js",
+    "file": "pages/index.svelte-a9f63710.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -60,7 +60,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/app-c659b835.css"
+      "assets/app-dc8eedec.css"
     ]
   },
   "src/routes/projects/control-center/index.svelte": {
@@ -75,7 +75,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/app-c659b835.css"
+      "assets/app-dc8eedec.css"
     ]
   },
   "src/routes/projects/ardui/index.svelte": {
@@ -90,7 +90,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/app-c659b835.css"
+      "assets/app-dc8eedec.css"
     ]
   },
   "src/routes/projects/ardui/privacy/index.svelte": {
@@ -105,16 +105,22 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/app-c659b835.css"
+      "assets/app-dc8eedec.css"
     ]
   },
   "src/routes/projects/webrc/index.svelte": {
-    "file": "pages/projects/webrc/index.svelte-512f5ebd.js",
+    "file": "pages/projects/webrc/index.svelte-1dffdd0a.js",
     "src": "src/routes/projects/webrc/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-0fbb5e6e.js"
+      "_vendor-0fbb5e6e.js",
+      "_StandardTopBar-6a2f7bbf.js",
+      "_BlogPage-814b7cc9.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "css": [
+      "assets/app-dc8eedec.css"
     ]
   },
   "src/routes/projects/webrc/privacy/index.svelte": {
@@ -129,7 +135,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/app-c659b835.css"
+      "assets/app-dc8eedec.css"
     ]
   },
   "src/routes/contact/index.svelte": {
@@ -143,7 +149,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/app-c659b835.css"
+      "assets/app-dc8eedec.css"
     ]
   },
   "src/routes/privacy/index.svelte": {
@@ -158,7 +164,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/app-c659b835.css"
+      "assets/app-dc8eedec.css"
     ]
   },
   "src/routes/profile/index.svelte": {
@@ -173,7 +179,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/app-c659b835.css"
+      "assets/app-dc8eedec.css"
     ]
   },
   "src/routes/editor/index.svelte": {
@@ -189,7 +195,7 @@
     ],
     "css": [
       "assets/pages/editor/index.svelte-4405f3b1.css",
-      "assets/app-c659b835.css"
+      "assets/app-dc8eedec.css"
     ]
   },
   "src/routes/404/index.svelte": {
@@ -203,7 +209,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/app-c659b835.css"
+      "assets/app-dc8eedec.css"
     ]
   },
   "_vendor-0fbb5e6e.js": {
@@ -219,7 +225,7 @@
       "_singletons-d1fb5791.js"
     ],
     "css": [
-      "assets/app-c659b835.css"
+      "assets/app-dc8eedec.css"
     ]
   },
   "_SecurityCheckPage-9a18eeec.js": {
