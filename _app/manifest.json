@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-7036ec1c.js",
+    "file": "start-36d50b1c.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -14,6 +14,7 @@
       "src/routes/projects/control-center/index.svelte",
       "src/routes/projects/ardui/index.svelte",
       "src/routes/projects/ardui/privacy/index.svelte",
+      "src/routes/projects/webrc/index.svelte",
       "src/routes/projects/webrc/privacy/index.svelte",
       "src/routes/contact/index.svelte",
       "src/routes/privacy/index.svelte",
@@ -49,7 +50,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-7cfa6694.js",
+    "file": "pages/index.svelte-7fbe07cd.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -105,6 +106,15 @@
     ],
     "css": [
       "assets/app-c659b835.css"
+    ]
+  },
+  "src/routes/projects/webrc/index.svelte": {
+    "file": "pages/projects/webrc/index.svelte-512f5ebd.js",
+    "src": "src/routes/projects/webrc/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-0fbb5e6e.js"
     ]
   },
   "src/routes/projects/webrc/privacy/index.svelte": {
